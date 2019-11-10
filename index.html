@@ -15,12 +15,12 @@
 <body>
 	<h1 id="title">Crystals & Gems!</h1>
 	<!-- Instructions -->
-	<div class="row">
+	<div class="row justify-content-around">
 		<!-- Instructions Container -->
-		<div class="col-md-12">
+		<div class="col-md-12 rules-area">
 			<div class="card mb-4">
 				<div class="card-header">
-					<h3> Game Instructions</h3>
+					<h3> Game Rules</h3>
 				</div>
 				<div class="card-body">
 					<br>
@@ -28,42 +28,36 @@
 						Everytime you click a gem, it will add a number to your total.</h4>
 				</div>
 				<br>
-			</div>
-		</div>
-
-		<div class="row">
-
-			<!-- Target Score -->
-			<div class="col-md-3">
-				<div class="card mb-4">
-					<div class="card-header">
-						Target Score
-
-						<div class="card-body">
-							<h3 class="text-center" id="target-score"></h3>
-						</div>
-						<div id="screen">
+				<div class="row justify-content-around">
+					<!-- Target Score -->
+					<div class="col-md-6">
+						<div class="card-header">
+							Target Score
+							<div class="card-body">
+								<h3 class="text-center" id="target-score"></h3>
+							</div>
+							<div id="screen"></div>
 							<!-- Random Number Display -->
 							<div id="random-area"></div>
 							<!-- Wins/Losses Display -->
-							<div id="win-area"></div>
-						</div>
-						<div>
+							<br>
+							<div id="win-area">
+							</div>
+
 							<!-- Crystals -->
-							<div id="crystal-area"></div>
+							<div id="crystal-area">
+								<h2 class="crystal-text" id="current-score">Crystal Selections</h2>
+							</div>
 							<div id="score-title">Your total score:</div>
 							<!-- Score Display -->
 							<div id="score-area"></div>
 						</div>
-
-						<div class="crystal">
-
-							<div class="row justify-content-around">
-							</div>
-
+						<div class="row justify-content-around">
 						</div>
 					</div>
-					</script>
+
+				</div>
+				</script>
 </body>
 
 </html>
