@@ -74,7 +74,7 @@ var checkWin = function () {
 	// Check if currentScore is larger than targetScore
 	if (currentScore > targetScore) {
 		alert("betterluck next time");
-		console.log("You Lost");
+		console.log("Better Luck Next Time");
 
 		// Add to Loss Counter
 		lossCount++;
@@ -88,7 +88,7 @@ var checkWin = function () {
 
 	else if (currentScore === targetScore) {
 		alert("Great Job, you win!");
-		console.log("You Won!");
+		console.log("Great Job, You Win!!");
 
 		// Add to the Win Counter
 		winCount++;
