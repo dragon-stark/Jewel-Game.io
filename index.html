@@ -5,59 +5,71 @@
 	<meta charset="UTF-8">
 	<title>Crystal Game</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/javascript/Crystals.js"></script>
 
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-	<h1 id="title">Crystals & Gems!</h1>
-	<!-- Instructions -->
-	<div class="row justify-content-around">
-		<!-- Instructions Container -->
-		<div class="col-md-12 rules-area">
-			<div class="card mb-4">
-				<div class="card-header">
-					<h3> Game Rules</h3>
-				</div>
-				<div class="card-body">
-					<br>
-					<h4>To begin, find your goal number. This is the number you will need to match in order to win
-						Everytime you click a gem, it will add a number to your total.</h4>
-				</div>
-				<br>
-				<div class="row justify-content-around">
-					<!-- Target Score -->
-					<div class="col-md-6">
-						<div class="card-header">
-							Target Score
-							<div class="card-body">
-								<h3 class="text-center" id="target-score"></h3>
-							</div>
-							<div id="screen"></div>
-							<!-- Random Number Display -->
-							<div id="random-area"></div>
-							<!-- Wins/Losses Display -->
-							<br>
-							<div id="win-area">
-							</div>
-
-							<!-- Crystals -->
-							<div id="crystal-area">
-								<h2 class="crystal-text" id="current-score">Crystal Selections</h2>
-							</div>
-							<div id="score-title">Your total score:</div>
-							<!-- Score Display -->
-							<div id="score-area"></div>
-						</div>
-						<div class="row justify-content-around">
-						</div>
+	<div class="container">
+		<h1 id="title">Crystals & Gems!</h1>
+		<!-- Instructions -->
+		<div class="row justify-content-around">
+			<!-- Instructions Container -->
+			<div class="col-md-12 rules-area">
+				<div class="card mb-4">
+					<div class="card-header">
+						<h3> Game Rules</h3>
 					</div>
+					<div class="card-body">	</div>
 
-				</div>
-				</script>
+						<h4>To begin, find your goal number. This is the number you will need to match in order to win
+							Everytime you click a gem, it will add a number to your total.</h4>
+						<h4>You win the game by matching your total score to random number, you lose the game if
+							your total score goes above the random number. The value of each crystal is hidden from
+							you until you click on it. Each time when the game starts, the game will change the values
+							of each crystal.</h4>
+					</div>	</div>
+
+					<div class="row">
+						<!-- Target Score -->
+						<div class="col-md-4">
+							<div class="card">	</div>	</div>
+								<div class="card-header">
+									Target Score
+								</div>
+								<div class="card-body">
+
+						<!-- Random Number Display -->
+						<div id="random-area"></div></div>
+
+						<!-- Wins/Losses Display -->
+						<br><div class="col-md-4">
+						<div id="win-area"></div>
+
+	<div id="score-title">Your total score:
+					</div>	<!-- Your Score -->
+						<div class="col-md-4">
+</div></div></div>
+							<div class="card mb-4">
+</div>
+								<div class="card-body">
+
+								</div>
+							</div>
+						<div id="score-area"></div>
+					</div>
+						<!-- Crystals -->
+						<div id="crystal-area">
+							<h2 class="crystal-text" id="current-score">Crystal Selections</h2>
+						</div>
+</div></div></div>
+
+					<script type="text/javascript"
+						src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+					<script type="text/javascript" src="assets/javascript/Crystals.js"></script>
+
+					<script type="text/javascript" src="assets/javascript/game.js"></script>
+					</script>
 </body>
 
 </html>

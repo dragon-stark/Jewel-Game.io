@@ -1,25 +1,27 @@
 body {
-	text-align: center;
-	background-image: url("../images/dot-grid.png");
-	position: relative;
+  text-align: center;
+  background-image: url("../images/dot-grid.png");
+  position: relative;
+  display: inline-table;
 }
 
 #screen {
   overflow: auto;
   align-content: center;
+  display: inline-block;
 }
 
 #screen div {
-  align-content: center;
+  align-content: left;
   overflow: auto;
-	text-align: center;
-	font-size: 1.3em;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 #title {
   font-size: 3em;
-align-self: auto;
-align-items: center;
+  align-self: auto;
+  align-items: center;
   width: 100%;
   padding: 4px;
   margin-bottom: 10px;
@@ -28,38 +30,38 @@ align-items: center;
 }
 
 #rules-area {
-align-items: center;
-  width: 100%;
+  align-items: left;
+  width: 80%;
   height: 70%;
   padding: 4px;
   margin-bottom: 10px;
   color: rgb(149, 247, 120);
-
 }
 
 #random-area {
-  width: 250px;
-  height: 100px;
+  /* height: 100px; */
   padding: 2px;
   font-size: 5em;
   color: rgb(254, 254, 255);
   background-color: rgb(250, 212, 248);
+  display: inline;
 }
 
 #score-area {
-  width: 210px;
+  width: 50%;
   height: 100px;
   padding: 4px;
   color: rgb(128, 101, 248);
   background-color: rgba(252, 218, 252, 0.973);
+  display: inline-block;
 }
 
 #score-title {
-  width: 210px;
+  font-size: 1.3em;
   padding: 4px;
   margin-bottom: 10px;
-  color: rgb(208, 199, 250);
-  background-color: rgb(250, 212, 248);
+  color: rgb(247, 246, 250);
+  background-color: rgb(208, 199, 250);
 }
 
 .crystals-button {
@@ -67,9 +69,9 @@ align-items: center;
 }
 
 .crystal-img {
-  width: 70px;
-  height: 70px;
-  background-color:  rgb(218, 212, 247);
+  width: 75px;
+  height: 75px;
+  background-color: rgb(218, 212, 247);
   border: solid;
   border-color: rgb(208, 199, 250);
 }
@@ -79,14 +81,23 @@ align-items: center;
 }
 
 #win-area {
+  width: 25%;
   height: 100px;
   padding: 4px;
   margin-bottom: 10px;
   margin-left: 10px;
-  background-color:  rgb(222, 217, 248);
+  background-color: rgb(222, 217, 248);
 }
 .main-body {
-  overflow:auto;
-	align-content: center;
-
+  overflow: auto;
+  display: inline-table;
+}
+.card-header {
+  background-color: lavender;
+  font-size: 1.5em;
+  color: white;
+  width: fit-content;
+}
+.card-body {
+  text-align: left;
 }
