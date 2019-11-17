@@ -58,14 +58,14 @@ $(document).ready(function () {
     // If the user won...
     if (didUserWin === true) {
       // Show victory message, restart the game, and render the new "current guess" number.
-      $("#win-area").append($("<p>").text("You won!!"));
+      $("#win-area").append($("<p>").text("Great Job, You Win!!"));
       setGame();
       renderMatchingNumber();
     }
     // If the user lost...
     else if (didUserWin === false) {
       // Show defeat message, restart the game, and render the new "current guess" number.
-      $("#win-area").append($("<p>").text("You lost!!"));
+      $("#win-area").append($("<p>").text("Sorry, Better Luck Next Time"));
       setGame();
       renderMatchingNumber();
     }
