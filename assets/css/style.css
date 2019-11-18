@@ -1,8 +1,8 @@
 body {
-	text-align: center;
-	background-image: url('../images/dot-grid.png');
-	position: relative;
-	display: inline-block;
+  text-align: center;
+  background-image: url("../images/dot-grid.png");
+  position: relative;
+  display: inline-block;
 }
 
 /* 
@@ -14,51 +14,52 @@ body {
 } */
 
 #title {
-	font-size: 3em;
-	align-self: auto;
-	align-items: center;
-	width: 100%;
-	padding: 4px;
-	margin-bottom: 10px;
-	color: white;
-	background-color: rgb(250, 212, 248);
-	text-align: center;
+  font-size: 3em;
+  align-self: auto;
+  align-items: center;
+  padding: 4px;
+  margin: 50px;
+  color: white;
+  background-color: rgb(250, 212, 248);
+  text-align: center;
 }
 
 #rules-area {
-	align-items: center;
-	padding: 10px;
-	margin-bottom: 10px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 #random-area {
-	align-self: auto;
-	padding: 2px;
-	font-size: 5em;
-	color: rgb(254, 254, 255);
-	background-color: rgb(250, 212, 248);
-	display: inline;
+  align-self: auto;
+  padding: 2px;
+  font-size: 5em;
+  color: rgb(254, 254, 255);
+  background-color: rgb(250, 212, 248);
+  display: inline;
 }
 
 #score-area {
-	overflow: auto;
-	padding: 2px;
-	background-color: rgba(252, 218, 252, 0.973);
-	font-size: 5em;
-	color: rgb(254, 254, 255);
-	display: inline-block;
+  overflow: auto;
+  padding: 2px;
+  background-color: rgba(252, 218, 252, 0.973);
+  font-size: 5em;
+  color: rgb(254, 254, 255);
+  display: inline-block;
 }
 
 .crystals-button {
-	display: inline;
+  display: inline;
 }
 
 .crystal-img {
-	width: 75px;
-	height: 75px;
-	background-color: rgb(218, 212, 247);
-	border: solid;
-	border-color: rgb(208, 199, 250);
+  width: 75px;
+  height: 75px;
+  background-color: rgb(218, 212, 247);
+  border: solid;
+  border-color: rgb(208, 199, 250);
 }
 
 /* #score-number {
@@ -66,36 +67,35 @@ body {
 } */
 
 #win-area {
-	align-self: auto;
-	width: fit-content;
-	font-size: 1.5em;
-	padding: 4px;
-	margin: auto;
-	color: rgb(247, 246, 250);
-	background-color: rgb(222, 217, 248);
+  align-self: auto;
+  width: fit-content;
+  font-size: 1.5em;
+  padding: 4px;
+  margin: auto;
+  color: rgb(247, 246, 250);
+  background-color: rgb(222, 217, 248);
 }
 .main-body {
-	align-self: auto;
-	overflow: auto;
-	display: inline;
+  align-self: auto;
+  overflow: auto;
+  display: inline;
 }
 .card-header1 {
-	background-color: lavender;
-	font-size: 1.5em;
-	color: white;
-	width: fit-content;
-	padding: 5px;
-	display: inline-block;
+  background-color: lavender;
+  font-size: 1.5em;
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  display: inline-block;
 }
 .card-body {
-	margin: auto;
-	padding: 5px;
-	align-self: auto;
-	display: inline-block;
+  margin: auto;
+  padding: 5px;
+  align-self: auto;
+  display: inline-block;
 }
 .container {
-	overflow: auto;
-	align-content: center;
-	display: inline;
-	padding-block: 5px;
+  overflow: auto;
+  display: inline;
+  padding-block: 5px;
 }
