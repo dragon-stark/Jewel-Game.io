@@ -1,5 +1,6 @@
 // Execute this code when the DOM has fully loaded.
-$(document).ready(function () {
+$(document).ready(function ()
+{
 
   // The number we will manipulate by clicking crystals. Our "current guess" number.
   var yourMatchingNumber = 0;
@@ -13,7 +14,8 @@ $(document).ready(function () {
   var crystals;
 
   // Function that generates random values for our crystals and returns our crystals object.
-  function randomNumCrystals () {
+  function randomNumCrystals ()
+  {
     // Crystals object.
     return {
       red: {
@@ -36,12 +38,14 @@ $(document).ready(function () {
   }
 
   // Function to create a random number between 19 and 120.
-  function randomNumGen () {
+  function randomNumGen ()
+  {
     return Math.floor(Math.random() * 102) + 19;
   }
 
   // Function that resets the game.
-  function setGame () {
+  function setGame ()
+  {
     // Make our current total number 0.
     yourMatchingNumber = 0;
     // Generate random crystal values.
@@ -52,7 +56,8 @@ $(document).ready(function () {
   }
 
   // Function that handles updating the page.
-  function updateDom (didUserWin) {
+  function updateDom (didUserWin)
+  {
     $("#win-area").empty();
 
     // If the user won...
@@ -85,7 +90,8 @@ $(document).ready(function () {
   }
 
   // Function to render our crystals to the page.
-  function renderCrystals () {
+  function renderCrystals ()
+  {
     for (var key in crystals) {
       var crystalDiv = $("<div class='crystals-button' data-name='" + key + "'>");
       var crystalImg = $("<img alt='image' class='crystal-img'>").attr("src", crystals[key].imageUrl);
@@ -95,13 +101,15 @@ $(document).ready(function () {
   }
 
   // Function to update our "current guess" number. We are passing in the crystal that was clicked as an argument.
-  function updateMatchingNumber (crystal) {
+  function updateMatchingNumber (crystal)
+  {
     // Update our "current guess" number based on which crystal was clicked.
     yourMatchingNumber += crystals[crystal.attr("data-name")].points;
   }
 
   // Function that will render your "current guess" number to the page.
-  function renderMatchingNumber () {
+  function renderMatchingNumber ()
+  {
     var scoreNumDiv = $("<div id='score-number'>").text(yourMatchingNumber);
     $("#score-area").html();
     $("#score-area").html(scoreNumDiv);
@@ -114,7 +122,8 @@ $(document).ready(function () {
   renderMatchingNumber();
 
   // Here we create an on.click event for the crystals.
-  $(".crystals-button").on("click", function (event) {
+  $(".crystals-button").on("click", function (event)
+  {
     // Update our "current guess" number and re-render it.
     updateMatchingNumber($(this));
     renderMatchingNumber();
