@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Crystal Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <section class="container">
-      <div class="row align-items-middle">
-        <h1 id="title">Crystal Collector Game!</h1>
-      </div>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Crystal Game</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<section class="container">
+			<div class="row">
+				<h1 id="title">Crystal Collector Game!</h1>
+			</div>
+			<div class="container">
+				<div id="rules-area" class="card-header1 text-align-center">
+					<h3>Game Rules</h3>
+					<h4>
+						To begin, find your goal number. This is the number you will need to
+						match in order to win Everytime you click a gem, it will add a
+						number to your total.
+					</h4>
+					<h4>
+						You win the game by matching your total score to random number, you
+						lose the game if your total score goes above the random number. The
+						value of each crystal is hidden from you until you click on it. Each
+						time when the game starts, the game will change the values of each
+						crystal.
+					</h4>
+				</div>
+			</div>
+      <br />
       <div class="container">
-                        <div class="col">
-          <div id="rules-area" class="card-header1 text-align-center">
-            <h3>Game Rules</h3>
-            <h4>
-              To begin, find your goal number. This is the number you will need
-              to match in order to win Everytime you click a gem, it will add a
-              number to your total.
-            </h4>
-            <h4>
-              You win the game by matching your total score to random number,
-              you lose the game if your total score goes above the random
-              number. The value of each crystal is hidden from you until you
-              click on it. Each time when the game starts, the game will change
-              the values of each crystal.
-            </h4>
-          </div>
-          <br />
-          <!-- Target Score -->
-          <div class="row align-items-start"></div>
-
-                              <div class="col">
-            <div class="card-header1">
-              Target Score:
-            </div>
-          </div>
-          <div class="card-body">
-            <div id="random-area"></div>
-            <!-- Wins/Losses Display -->
-            <br />
-            <div class="col" id="win-area"></div>
-            <br />
-            <!-- <div class="col"> -->
-            <div class="card-header1">
-              Your Total Score:
-            </div>
-          </div>
-        </div>
-        <div class="card-body">
-          <div id="score-area"></div>
-          <!-- Crystals -->
-          <div class="row align-items-middle" id="crystal-area">
-            <h2 class="crystal-text">Crystal Selections</h2>
-          </div>
-        </div>
-    </section>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-    ></script>
-    <script type="text/javascript" src="assets/javascript/Crystals.js"></script>
-  </body>
+			<!-- Target Score -->
+			<div class="card-columns" id="main">
+				<div class="row">
+					<div class="card-body">
+						<div class="card card-header1">
+							Target Score:
+						</div>
+					</div>
+				<br />
+				<div class="card p-3" id="random-area"></div>
+			</div>
+			<br />
+			<div class="card">
+				<br />
+				<div class="card-body" id="win-area"></div>
+				<br />
+				<div class="card-header1">
+					Your Total Score:
+				</div>
+				<!-- Wins/Losses Display -->
+				<div class="card">
+					<div class="card-body">
+						<div id="score-area"></div>
+						<!-- Crystals -->
+						<div id="crystal-area">
+							<h2 class="crystal-text">Magical Crystals</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+		></script>
+		<script type="text/javascript" src="assets/javascript/Crystals.js"></script>
+	</body>
 </html>
