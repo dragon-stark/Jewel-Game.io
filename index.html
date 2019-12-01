@@ -6,10 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
-	<body><div class="row">
-		<section class="container">
+	<body><div class="row align-element-center">
+		<div class="col text-center"></div>
+		<span class="container">
 				<h1 id="title">Crystal Collector Game!</h1>
-			</div>
+		</span></div>
 			<div class="container">
 				<div id="rules-area" class="card-header1 text-align-center">
 					<h3>Game Rules</h3>
@@ -23,30 +24,25 @@
 				</div>
 			</div>
 			<br />
-			<div class="container" id="main">
-				<div class="card-columns">
+			<section role="main" class="container" id="main">
+				<!-- <div class="card-columns"> -->
 					<!-- Target Score -->
-						<div class="card p-3 card-header1">
-							Target Score:
-						</div>
-					<br />
-					<div class="card" id="random-area"></div><br><br />
+						<div class="card-header1">
+							Target Score:</div>
+					<div class="card" id="random-area"></div>
+
 <!-- Crystals -->
-<div class="card-bg-secondary" id="crystal-area"><div class="card-header1">
-	<h3>Magic Crystals</h3></div></div>
-<br/>
-				<div class="card bg-secondary p-3 text-center" id="win-area"></div></div>
-				<br />
-				<div class="card">
+<br>
+<div class="card text-center" id="crystal-area">
+
+</div>
+			<!-- <h3>Magic Crystals</h3></div></div> -->
+		<!-- Wins/Losses Display -->
 					<div class="card-header1">
-						Your Total Score:
-					</div>
-				<br />
-				<!-- Wins/Losses Display -->
-				<div class="card">
-						<div id="score-area"></div>
-					</div></div>
-			</div>
+						Your Total Score:</div><br>
+				<div class="card" id="score-area"></div>
+<div class="card text-center" id="win-area"></div>
+	</main>
 		</section>
 		<script
 			type="text/javascript"

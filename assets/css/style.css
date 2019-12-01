@@ -1,19 +1,17 @@
 body {
 	background-image: url("../images/dot-grid.png");
-	align-self: auto;
-	text-align: center;
 }
 
 #title {
 	font-size: 3em;
 	padding: 4px;
-	margin: 50px;
+
 	color: white;
 	background-color: rgb(250, 212, 248);
-	text-align: center;
 }
 
 #rules-area {
+	text-align: center;
 	padding: 5px;
 	margin-bottom: 10px;
 	margin-left: 15px;
@@ -23,65 +21,73 @@ body {
 #random-area {
 	display: inline-flex;
 	position: relative;
-	padding: 2px;
+	padding: 5px;
 	font-size: 5em;
 	color: rgb(254, 254, 255);
 	background-color: rgb(250, 212, 248);
 }
 
 #score-area {
-	display: inline-block;
-	padding: 2px;
+	display: inline-flex;
+	padding: 5px;
 	background-color: rgba(252, 218, 252, 0.973);
 	font-size: 5em;
 	color: rgb(254, 254, 255);
 }
 
 .crystals-button {
-	display: inline;
+	display: inline-flex;
+	padding: 7px;
 }
 
 .crystal-img {
-	width: 80px;
-	height: 80px;
+	display: inline-block;
+	width: 95px;
+	height: 95px;
 	background-color: rgb(218, 212, 247);
 	border: solid;
 	border-color: rgb(208, 199, 250);
 }
 #win-area {
+	display: inline-block;
 	width: fit-content;
 	font-size: 1.5em;
 	padding: 2px;
 	color: rgb(128, 122, 122);
 	background-color: rgb(222, 217, 248);
 }
-.main-body {
+.main-body #main {
+	padding: 5px;
 	position: relative;
-	display: inline;
+	display: inline-flex;
 }
 .card-header1 {
-	background-color: lavender;
+	/* background-color: lavender; */
 	font-size: 1.5em;
 	color: rgb(128, 122, 122);
 	width: fit-content;
+	align-self: center;
 }
 .card-body {
-	padding: 2px;
+	padding: 5px;
 	align-self: auto;
 }
 
 .col #win-area-col {
-	display: inline;
+	display: inline-flex;
+	padding: 10px;
 }
 
 #main .card-columns {
+	padding: 5px;
 	position: relative;
+	display: inline-flex;
 	column-count: 3;
 	align-self: auto;
 }
 .container {
 	align-self: center;
 	margin: auto;
-	padding: 15px;
+	padding: 10px;
 	display: inline-flex;
 }
