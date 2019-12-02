@@ -1,18 +1,21 @@
 body {
 	background-image: url("../images/dot-grid.png");
+	font-size: 1.5em;
+	padding: 20px;
+	align-self: auto;
 }
 
 #title {
-	font-size: 3em;
-	padding: 4px;
-
+	font-size: 2.5em;
+	padding: 3px;
 	color: white;
 	background-color: rgb(250, 212, 248);
+	text-align: center;
 }
 
 #rules-area {
 	text-align: center;
-	padding: 5px;
+	padding: 2px;
 	margin-bottom: 10px;
 	margin-left: 15px;
 	margin-right: 15px;
@@ -21,73 +24,60 @@ body {
 #random-area {
 	display: inline-flex;
 	position: relative;
-	padding: 5px;
-	font-size: 5em;
 	color: rgb(254, 254, 255);
 	background-color: rgb(250, 212, 248);
+	border-style: dotted;
+	border-color: black;
 }
 
 #score-area {
 	display: inline-flex;
-	padding: 5px;
 	background-color: rgba(252, 218, 252, 0.973);
-	font-size: 5em;
-	color: rgb(254, 254, 255);
+	/* color: rgb(254, 254, 255); */
 }
 
 .crystals-button {
-	display: inline-flex;
-	padding: 7px;
+	display: inline-block;
 }
-
+#crystal-area {
+	align-items: center;
+	margin-left: 2%;
+	margin-right: 45%;
+	text-align: center;
+}
 .crystal-img {
 	display: inline-block;
-	width: 95px;
-	height: 95px;
+	width: 120px;
+	height: 120px;
 	background-color: rgb(218, 212, 247);
-	border: solid;
+	border-style: double;
 	border-color: rgb(208, 199, 250);
 }
 #win-area {
 	display: inline-block;
 	width: fit-content;
 	font-size: 1.5em;
-	padding: 2px;
-	color: rgb(128, 122, 122);
 	background-color: rgb(222, 217, 248);
 }
 .main-body #main {
-	padding: 5px;
 	position: relative;
-	display: inline-flex;
-}
-.card-header1 {
-	/* background-color: lavender; */
-	font-size: 1.5em;
-	color: rgb(128, 122, 122);
-	width: fit-content;
-	align-self: center;
-}
-.card-body {
-	padding: 5px;
-	align-self: auto;
+	display: inline;
 }
 
-.col #win-area-col {
-	display: inline-flex;
-	padding: 10px;
-}
-
-#main .card-columns {
-	padding: 5px;
+.card-deck {
 	position: relative;
-	display: inline-flex;
-	column-count: 3;
+	column-count: 4;
 	align-self: auto;
 }
 .container {
-	align-self: center;
+	align-self: auto;
 	margin: auto;
-	padding: 10px;
-	display: inline-flex;
+	display: inline;
+}
+#random-area {
+	font-size: 3.4em;
+	padding: 5px;
+}
+#score-number {
+	font-size: 3.3em;
 }
