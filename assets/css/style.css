@@ -3,10 +3,15 @@ body {
 	font-size: 1em;
 	margin: 15px;
 	align-self: auto;
+	color: rgb(1, 77, 1);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.jumbotron {
+	background-image: url("../images/dot-grid.png");
+}
 #title {
-	font-size: 2.5em;
+	font-size: 5em;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	padding: 3px;
 	color: white;
 	background-color: rgb(250, 212, 248);
@@ -15,6 +20,7 @@ body {
 }
 
 #rules-area {
+	color: rgb(1, 77, 1);
 	text-align: left;
 	padding: 1px;
 	margin-bottom: 10px;
@@ -83,4 +89,7 @@ body {
 #score-number {
 	font-size: 3.3em;
 	align-items: center;
+}
+.card-body {
+	background-image: url("../images/dot-grid.png");
 }
