@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 		<title>Crystal Collector Game</title>
 
-		<link rel="stylesheet" href="assets/css/style.css" /><!-- Bootstrap CSS -->
+		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	</head>
+		<link rel="stylesheet" href="assets/css/style.css" />	</head>
 	<body>
 				<span class="container">
 					<div class="jumbotron text-align-center">
 					<h1 id="title">Crystal Collector Game!</h1>
-
-			<div class="container">
+				<div class="shadow p-3 mb-5 bg-white rounded">
+			<!-- <div class="container"> -->
 				<div id="rules-area" class="card-title text-align-center">
-					<div class="card-deck">
-					<div class="card">
-						<div class="card-body">
-						<h3 class="card-title">
-				Game Rules</h3>
+						<h3 class="card-title">Game Rules</h3>
 					<h4>~This game will begin by showing you a random number</h4>
 					<h4>
 						~Each time the game begins, the crystals below will be assigned random values.
@@ -34,30 +30,23 @@
 				~All values will reset at the start of a new game.
 					</h4></div>
 				</div></div>
-			</div></div></span></div></div>
 			<br />
 			<div class="container" id="main">
 			<div class="card-deck">
 				<div class="card">
-					<div class="card-body">
-							<h3 class="card-body">
+					<h3 class="card-body">
 								Target Score:</h3>
-								<div class="card-body">
-						</div>
-					</div>
 					<div class="card" id="random-area">
 						</div>
-					</div>
+			</div>
 							<div class="card">
-								<div class="card-body">
-						<h3 class="card-title">
+						<h3 class="card-body">
 						Current Game Stats:</h3>
 						<div class="card-body" id="win-area">
 				</div></div>
-					</div>
 						<div class="card">
 							<!-- <div class="card-body"> -->
-						<h3 class="card-title">
+						<h3 class="card-body">
 						Your Total Score:</h3>
 						<div class="card-body">
 
@@ -67,11 +56,11 @@
 				</div>
 					<div class="card">
 						<!-- <div class="card-body"> -->
-				<h3 class="card-title">Magic Crystals</h3>
-				<div class="card-body" id="crystal-area">
+				<h3 class="card-body">Magic Crystals</h3>
+				<div  id="crystal-area">
 				</div></div>
 		</div></div>
-		</div>
+		</div></span>
 		<script
 			type="text/javascript"
 			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"

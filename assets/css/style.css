@@ -1,6 +1,6 @@
 body {
 	background-image: url("../images/dot-grid.png");
-	font-size: 1.2em;
+	font-size: 1em;
 	margin: 15px;
 	align-self: auto;
 }
@@ -43,6 +43,7 @@ body {
 #crystal-area {
 	align-items: center;
 	text-align: center;
+	background-image: url("../images/dot-grid.png");
 }
 .crystal-img {
 	display: inline-block;
@@ -55,12 +56,13 @@ body {
 #win-area {
 	padding: 1px;
 	width: fit-content;
-	font-size: 1.52em;
+	font-size: 2em;
 	background-color: rgb(222, 217, 248);
 }
 .main-body #main {
 	position: relative;
 	display: inline;
+	background-image: url("../images/dot-grid.png");
 }
 
 .card-deck {
@@ -71,6 +73,7 @@ body {
 	align-self: auto;
 	margin: auto;
 	display: inline;
+	background-image: url("../images/dot-grid.png");
 }
 #random-area {
 	font-size: 3.4em;
