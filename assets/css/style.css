@@ -1,17 +1,19 @@
 body {
+	/* font-family: "Elsie", cursive; */
 	background-image: url("../images/dot-grid.png");
 	font-size: 1em;
 	margin: 15px;
 	align-self: auto;
-	color: rgb(1, 77, 1);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(47, 1, 77);
+	font-family: "Special Elite", cursive;
 }
 .jumbotron {
+	font-family: "Special Elite", cursive;
 	background-image: url("../images/dot-grid.png");
 }
 #title {
+	font-family: "Special Elite", cursive;
 	font-size: 5em;
-	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 	padding: 3px;
 	color: white;
 	background-color: rgb(250, 212, 248);
@@ -20,7 +22,8 @@ body {
 }
 
 #rules-area {
-	color: rgb(1, 77, 1);
+	background-image: url("../images/dot-grid.png");
+	color: rgb(47, 1, 77);
 	text-align: left;
 	padding: 1px;
 	margin-bottom: 10px;
@@ -31,39 +34,35 @@ body {
 #random-area {
 	display: inline-flex;
 	position: relative;
-	color: rgb(254, 254, 255);
-	background-color: rgb(250, 212, 248);
-	border-style: dotted;
-	border-color: black;
+	background-color: lavender;
 }
 
 #score-area {
-	display: inline-flex;
-	background-color: rgba(252, 218, 252, 0.973);
-	/* color: rgb(254, 254, 255); */
+	align-items: center;
+	display: inline;
+	background-color: lavender;
 }
 
 .crystals-button {
-	display: inline;
+	display: inline-flex;
 }
 #crystal-area {
+	align-self: auto;
 	align-items: center;
 	text-align: center;
 	background-image: url("../images/dot-grid.png");
 }
 .crystal-img {
 	display: inline-block;
-	width: 108px;
-	height: 108px;
+	width: 98px;
+	height: 98px;
 	background-color: rgb(218, 212, 247);
 	border-style: double;
-	border-color: rgb(208, 199, 250);
+	border-color: rgb(47, 1, 77);
 }
 #win-area {
-	padding: 1px;
-	width: fit-content;
+	/* width: fit-content; */
 	font-size: 2em;
-	background-color: rgb(222, 217, 248);
 }
 .main-body #main {
 	position: relative;
@@ -82,14 +81,18 @@ body {
 	background-image: url("../images/dot-grid.png");
 }
 #random-area {
-	font-size: 3.4em;
-	padding: 5px;
+	font-size: 2em;
 	align-items: center;
 }
 #score-number {
-	font-size: 3.3em;
+	font-size: 2em;
 	align-items: center;
 }
 .card-body {
+	background-image: url("../images/dot-grid.png");
+	align-items: center;
+	text-align: center;
+}
+.card {
 	background-image: url("../images/dot-grid.png");
 }
