@@ -1,3 +1,7 @@
-# Jewel-Game.io
+# Crystal Collector
 
-<a href="https://dragon-stark.github.io/Jewel-Game.io">Crystal Collector Game</a>
+**Test your analytical skills by matching the value of a random number with limited information**
+
+### Project Page
+
+[Crystal Collector!](https://dragon-stark.github.io/Jewel-Game.io).
