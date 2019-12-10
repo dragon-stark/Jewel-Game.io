@@ -4,4 +4,4 @@
 
 ### Project Page
 
-#[Crystal Collector!](https://dragon-stark.github.io/Jewel-Game.io)
+[Crystal Collector!](https://dragon-stark.github.io/Jewel-Game.io)
