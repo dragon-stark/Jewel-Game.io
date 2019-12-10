@@ -14,7 +14,11 @@
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 			crossorigin="anonymous"
-		/><link href="https://fonts.googleapis.com/css?family=Elsie|Special+Elite&display=swap" rel="stylesheet">
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Elsie|Special+Elite&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 	<body>
@@ -22,47 +26,52 @@
 			<div class="jumbotron text-align-center">
 				<h1 id="title">Crystal Collector Game!</h1>
 				<div class="shadow p-3 mb-5 bg-white rounded">
-
-						<div id="rules-area" class="card-title text-align-center">
-							<h3 class="text-center">Game Rules</h3><br>
-							<h4>This game will begin by showing you a random number</h4><br>
-							<h4>
-								Each time the game begins, the crystals below will be assigned
-								random values.
-							</h4><br>
-							<h4>
-								To win you must reach the random number assigned without going
-								beyond with the values from each crystal.
-							</h4><br>
-							<h4>
-								The value of each crystal is not given to you, part of the fun
-								is finding the pattern that will match your number.
-							</h4><br>
-							<h4 class="text-center">
-								All values will reset at the start of a new game.
-							</h4>
-						</div>
-					</div>				</div>
-				<div class="container" id="main">
-					<div class="card-deck">
-						<div class="card">
-							<h3>Target Score:</h3>
-							<div class="card" id="random-area"></div>
-						</div>
-						<div class="card" >
-							<div class="text-align-center" id="win-area"></div>
-						</div>
-						<div class="card">
-							<h3>	Your Total Score:</h3>
-							<div class="card" id="score-area"></div>
-						</div>
-						<div class="card" id="crystal-area">
-							<h3 >Magic Crystals</h3>
+					<div id="rules-area" class="card-title text-align-center">
+						<h2 class="text-center">Game Rules</h2>
+						<br />
+						<h4>This game will begin by showing you a random number</h4>
+						<br />
+						<h4>
+							Each time the game begins, the crystals below will be assigned
+							random values.
+						</h4>
+						<br />
+						<h4>
+							To win you must reach the random number assigned without going
+							beyond with the values from each crystal.
+						</h4>
+						<br />
+						<h4>
+							The value of each crystal is not given to you, part of the fun is
+							finding the pattern that will match your number.
+						</h4>
+						<br />
+						<h4 class="text-center">
+							All values will reset at the start of a new game.
+						</h4>
 					</div>
-						</div>
+				</div>
+			</div>
+			<div class="container" id="main">
+				<div class="card-deck">
+					<div class="card">
+						<h3>Target Score:</h3>
+						<div id="random-area"></div>
 					</div>
-				</div></div
-		></span>
+					<div class="card" id="crystal-area">
+						<h3>Magic Crystals</h3>
+					</div>
+					<div class="card">
+						<h3>Your Total Score:</h3>
+						<div id="score-area"></div>
+					</div>
+					<div class="card">
+						<h3>Game Statistics:</h3>
+						<div id="win-area"></div>
+					</div>
+				</div>
+			</div>
+		</span>
 		<script
 			type="text/javascript"
 			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"

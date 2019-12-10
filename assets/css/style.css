@@ -2,10 +2,11 @@ body {
 	/* font-family: "Elsie", cursive; */
 	background-image: url("../images/dot-grid.png");
 	font-size: 1em;
-	margin: 15px;
+	margin: 10px;
 	align-self: auto;
 	color: rgb(47, 1, 77);
 	font-family: "Special Elite", cursive;
+	line-height: 1em;
 }
 .jumbotron {
 	font-family: "Special Elite", cursive;
@@ -48,14 +49,13 @@ body {
 }
 #crystal-area {
 	align-self: auto;
-	align-items: center;
+	display: flex;
+	/* align-items: center; */
 	text-align: center;
-	background-image: url("../images/dot-grid.png");
 }
 .crystal-img {
 	display: inline-block;
-	width: 98px;
-	height: 98px;
+	size: 15%;
 	background-color: rgb(218, 212, 247);
 	border-style: double;
 	border-color: rgb(47, 1, 77);
@@ -90,9 +90,15 @@ body {
 }
 .card-body {
 	background-image: url("../images/dot-grid.png");
-	align-items: center;
-	text-align: center;
 }
 .card {
-	background-image: url("../images/dot-grid.png");
+	background-color: lavender;
+	align-items: center;
+	text-align: center;
+	display: inline-flex;
+}
+h3 {
+	margin: 15%;
+	align-self: auto;
+	line-height: 3em;
 }
