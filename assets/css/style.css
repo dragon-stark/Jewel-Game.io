@@ -1,126 +1,148 @@
 body {
-	/* font-family: "Elsie", cursive; */
-	background-image: url("../images/dot-grid.png");
-	font-size: 0.8em;
-	/* margin: 5px; */
-	align-self: auto;
-	color: rgb(47, 1, 77);
-	font-family: "Special Elite", cursive;
-	line-height: 1em;
+  /* font-family: "Elsie", cursive; */
+  background-image: url("../images/dot-grid.png");
+  font-size: 0.8em;
+  /* margin: 5px; */
+  align-self: auto;
+  color: rgb(47, 1, 77);
+  font-family: "Special Elite", cursive;
+  line-height: 1em;
+  display: flex;
 }
 .jumbotron {
-	font-size: 0.7em;
-	font-family: "Special Elite", cursive;
-	background-image: url("../images/dot-grid.png");
+  font-size: 0.5em;
+  font-family: "Special Elite", cursive;
+  background-image: url("../images/dot-grid.png");
 }
 #title {
-	font-family: "Special Elite", cursive;
-	font-size: 5em;
-	padding: 3px;
-	color: white;
-	background-color: rgb(250, 212, 248);
-	text-align: center;
-	align-items: center;
+  font-family: "Special Elite", cursive;
+  font-size: 5em;
+  padding: 3px;
+  color: white;
+  background-color: rgb(250, 212, 248);
+  text-align: center;
+  align-items: center;
 }
 
 #rules-area {
-	background-image: url("../images/dot-grid.png");
-	color: rgb(47, 1, 77);
-	text-align: left;
-	/* padding: 1px; */
-	margin-bottom: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
+  background-image: url("../images/dot-grid.png");
+  color: rgb(47, 1, 77);
+  text-align: left;
+  /* padding: 1px; */
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #random-area {
-	text-align: center;
-	/* display: inline-block; */
-	position: relative;
-	background-color: lavender;
+  display: flex;
+  text-align: center;
+  /* display: inline-block; */
+  position: relative;
+  /* background-color: lavender; */
+  background-image: url("../images/dot-grid.png");
 }
 
 #score-area {
-	align-items: center;
-	text-align: center;
-	display: inline-block;
-	background-color: lavender;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* background-color: lavender; */
 }
 
 .crystals-button {
-	/* display: inline; */
-	size: 75px;
+  display: flex;
+  /* display: inline; */
+  size: 75px;
 }
 #crystal-area {
-	align-self: auto;
-	/* text-align: center;
+  display: flex;
+  align-self: auto;
+  /* text-align: center;
 	display: inline-block; */
-	/* align-items: center; */
+  /* align-items: center; */
 }
 .crystal-img {
-	text-align: center;
-	/* display: inline; */
-	/* align-items: flex-start; */
-	/* align-self: auto; */
-	size: 15px;
-	background-image: url("../images/dot-grid.png");
-	border-style: double;
-	border-color: rgb(47, 1, 77);
+  display: flex;
+  text-align: center;
+  /* display: inline; */
+  /* align-items: flex-start; */
+  /* align-self: auto; */
+  size: 10px;
+  background-image: url("../images/dot-grid.png");
+  border-style: double;
 }
 .img {
-	size: 25px;
-	display: inline;
+  size: 25px;
+  display: inline;
+  align-items: flex-start;
 }
 #win-area {
-	text-align: center;
-	display: inline-block;
-	width: fit-content;
-	font-size: 1.5em;
-	line-height: 2em;
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  width: fit-content;
+  font-size: 1.5em;
+  line-height: 2em;
+  align-items: flex-start;
 }
 .main-body #main {
-	position: relative;
-	/* display: inline; */
-	background-image: url("../images/dot-grid.png");
+  display: flex;
+  position: relative;
+  /* display: inline; */
+  background-image: url("../images/dot-grid.png");
 }
 
 .card-deck {
-	position: relative;
-	align-self: auto;
+  display: flex;
+  position: relative;
+  align-self: auto;
+  background-image: url("../images/dot-grid.png");
+  border-width: 0;
 }
 .container {
-	align-self: auto;
-	margin: auto;
-	/* display: inline; */
-	background-image: url("../images/dot-grid.png");
+  display: flex;
+  align-self: auto;
+  margin: auto;
+  /* display: inline; */
+  background-image: url("../images/dot-grid.png");
 }
 #random-area {
-	text-align: center;
-	display: inline-block;
-	font-size: 2em;
-	align-items: center;
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  font-size: 2em;
+  align-items: flex-start;
+  background-image: url("../images/dot-grid.png");
 }
 #score-number {
-	text-align: center;
-	display: inline-block;
-	font-size: 2em;
-	align-items: center;
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  font-size: 2em;
+  align-items: flex-start;
+  background-image: url("../images/dot-grid.png");
 }
 .card-body {
-	background-image: url("../images/dot-grid.png");
+  display: flex;
+  background-image: url("../images/dot-grid.png");
 }
 .card {
-	text-align: center;
-	display: inline-block;
-	background-color: lavender;
-	align-items: center;
-	text-align: center;
-	display: inline-flex;
+  box-shadow: dimgrey;
+  display: flex;
+  align-self: auto;
+  /* display: inline-block; */
+  background-image: url("../images/dot-grid.png");
+  align-items: center;
+  text-align: center;
 }
-h3 {
-	text-align: center;
-	display: inline-block;
-	margin: 15%;
-	align-self: auto;
-	line-height: 2em;
+h5 {
+  display: flex;
+  text-align: center;
+  text-shadow: dimgrey;
+  margin: 15%;
+  align-self: auto;
+  text-size-adjust: 1em;
+  line-height: 2em;
 }
