@@ -1,7 +1,7 @@
 body {
   /* font-family: "Elsie", cursive; */
   background-image: url("../images/dot-grid.png");
-  font-size: 0.8em;
+  /* font-size: 0.8em; */
   /* margin: 5px; */
   align-self: auto;
   color: rgb(47, 1, 77);
@@ -9,6 +9,9 @@ body {
   line-height: 1em;
   display: flex;
 }
+/* #screen {
+  overflow: auto;
+} */
 .jumbotron {
   font-size: 0.5em;
   font-family: "Special Elite", cursive;
@@ -28,7 +31,7 @@ body {
   background-image: url("../images/dot-grid.png");
   color: rgb(47, 1, 77);
   text-align: left;
-  /* padding: 1px; */
+  padding: 1px;
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
@@ -36,17 +39,20 @@ body {
 
 #random-area {
   display: flex;
-  text-align: center;
-  /* display: inline-block; */
-  position: relative;
-  /* background-color: lavender; */
+  flex-wrap: wrap;
+  padding: 3px;
+  /* text-align: center; */
+  /* position: relative; */
+  background-color: lavender;
   background-image: url("../images/dot-grid.png");
 }
 
 #score-area {
+  padding: 3px;
   display: flex;
   align-items: center;
   text-align: center;
+  /* overflow-wrap: break-word; */
 
   /* background-color: lavender; */
 }
@@ -54,7 +60,7 @@ body {
 .crystals-button {
   display: flex;
   /* display: inline; */
-  size: 75px;
+  /* size: 15%; */
 }
 #crystal-area {
   display: flex;
@@ -64,20 +70,21 @@ body {
   /* align-items: center; */
 }
 .crystal-img {
-  display: flex;
+  /* display: flex; */
   text-align: center;
+  cursor: pointer;
   /* display: inline; */
   /* align-items: flex-start; */
   /* align-self: auto; */
-  size: 10px;
+  size: 10%;
   background-image: url("../images/dot-grid.png");
   border-style: double;
 }
-.img {
+/* .img {
   size: 25px;
   display: inline;
   align-items: flex-start;
-}
+} */
 #win-area {
   display: flex;
   text-align: center;
@@ -86,6 +93,7 @@ body {
   font-size: 1.5em;
   line-height: 2em;
   align-items: flex-start;
+  margin: 5px;
 }
 .main-body #main {
   display: flex;
@@ -96,7 +104,7 @@ body {
 
 .card-deck {
   display: flex;
-  position: relative;
+  /* position: relative; */
   align-self: auto;
   background-image: url("../images/dot-grid.png");
   border-width: 0;
@@ -130,8 +138,8 @@ body {
 }
 .card {
   box-shadow: dimgrey;
-  display: flex;
-  align-self: auto;
+  /* display: flex; */
+  /* align-self: auto; */
   /* display: inline-block; */
   background-image: url("../images/dot-grid.png");
   align-items: center;
