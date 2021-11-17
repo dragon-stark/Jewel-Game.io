@@ -7,4 +7,4 @@ Project Link:
 
 * fun and interactive game for web browsers. This app, dynamically updates HTML pages using the _jQuery_ library
 
-![Crystal Collector](assets/images/CrystalCollector.gif)
+![Crystal Collector](assets/images/crystalcollectorgame.gif)
